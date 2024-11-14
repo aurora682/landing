@@ -1,0 +1,18 @@
+
+.seccion3{
+    background-color: #FDC9F0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .iconosSeccion3{
+    width: 100%;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+  }
+  .iconosSeccion3>p{
+    margin-right: 2%;
+  }

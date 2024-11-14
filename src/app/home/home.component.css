@@ -1,0 +1,9 @@
+.cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #FDC9F0;
+}
+
+  

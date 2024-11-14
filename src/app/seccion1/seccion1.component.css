@@ -1,0 +1,21 @@
+.seccion1{
+    background-color: #FDC9F0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.seccion1Texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.seccion1Texto>h1{
+    color: white;
+}
+.seccion1Texto>p{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: gray;
+font-size: 2em;
+}

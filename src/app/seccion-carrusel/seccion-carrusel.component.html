@@ -1,0 +1,14 @@
+<div class="seccion2">
+    <h1>LO MAS NUEVO</h1>
+    <div class="carrusel">
+        <button (click)="prevImage()">&#10094;</button>
+        
+        <div class="carousel-image">
+          <img [src]="images[currentIndex]" alt="Imagen del carrusel">
+          <img [src]="images[currentIndex2]" alt="Imagen del carrusel">
+          <img [src]="images[currentIndex3]" alt="Imagen del carrusel">
+        </div>
+
+        <button (click)="nextImage()">&#10095;</button>
+    </div>
+</div>
